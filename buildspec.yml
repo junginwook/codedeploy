@@ -13,6 +13,6 @@ phases:
       - pwd
 
 
-  cache:
-    paths:
-      - '/root/.gradle/caches/**/*'
+cache:
+  paths:
+    - '/root/.gradle/caches/**/*'
