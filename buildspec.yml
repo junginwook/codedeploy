@@ -1,16 +1,15 @@
 version: 0.2
 
-#env:
-#  variables:
-#    JAVA_HOME: "/usr/lib/jvm/java-17-amazon-corretto/"
-
+env:
+  variables:
+    JAVA_HOME: "/usr/lib/jvm/java-17-amazon-corretto/"
 
 phases:
-#  install:
-#    commands:
-#      - apt-get update; apt-get install -y java-17-amazon-corretto-jdk
-#      - update-alternatives --auto javac
-#      - update-alternatives --auto java
+  install:
+    commands:
+      - apt-get update; apt-get install -y java-17-amazon-corretto-jdk
+      - update-alternatives --auto javac
+      - update-alternatives --auto java
 
   build:
     commands:
